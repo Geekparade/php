@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="fr">
-	<head>
-		<meta charset="UTF-8">
-		<title>Ma première page en P.H.P</title>
-	</head>
+<head>
+	<meta charset="UTF-8">
+	<title>Ma première page en P.H.P</title>
+</head>
 	<body>
 		<form method="post">
 			<label for="">Votre Prénom</label>
@@ -13,15 +13,7 @@
 			<input type="submit" name="send" value="Valider">
 		</form>
 		<?php 
-			/**
-			*
-			* Créer un formulaire qui demande un login et un mot de passe
-			* puis une fois le formulaire validé, afficher :
-			* 
-			* - Le login
-			* - Le mot de passe
-			* - L'adresse ip du client
-			*/
+		
 			if (!empty($_POST)){
 				$firstname = $_POST["login"];
 				$password = $_POST["pw"];
