@@ -10,9 +10,9 @@
 
 
 $number = [1,2,3,4];
-$insert = ["A","B","C"];
+$insert = ["A","B","C"]; 
 
+array_splice($number, 2, 0, $insert);
 
-/**
-* Coder ici
-*/
+var_dump($number);
+?>
