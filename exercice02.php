@@ -23,33 +23,34 @@ ini_set('display_errors', 1);
  */
 class Actor
 {
-    public $firstName;
-    public $lastName;
+    private $firstName;
+    private $lastName;
 
     /**
      * @brief output actor's full name in <p> tag.
      */
-    function fullName()
+    public function fullName()
     {
-        echo "<p>".$this->firstName." ".$this->lastName."</p>";
+       return $this->firstName.' '.$this->lastName.'<br />';
+    }
+
+    public function __construct($new_firstName, $new_lastName)
+    {
+        $this->firstName = $new_firstName;
+        $this->lastName = $new_lastName;
     }
 }
 
 $actors = [];
-$actors[] = new Actor;
-$actors[0]->firstName = 'John';
-$actors[0]->lastName = 'Gielgud';
-$actors[] = new Actor;
-$actors[1]->firstName = 'Laurence';
-$actors[1]->lastName = 'Olivier';
-$actors[] = new Actor;
-$actors[2]->firstName = 'Vivien';
-$actors[2]->lastName = 'Leigh';
+$actors[] = new Actor ('Toto','Tata');
+$actors[] = new Actor ('Jean Claude', 'Van Damme');
+$actors[] = new Actor ('Sylvester', 'Stalone');
+$actors[] = new Actor ('Arnold', 'Schwarzenegger');
 
 echo "<h1>Actors List</h1>";
 
 foreach ($actors as $actor) {
-    $actor->fullName();
+    echo $actor->fullName();
 }
 
 // vim: set expandtab:
