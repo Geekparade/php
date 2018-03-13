@@ -6,6 +6,11 @@
 
 ## Suivre les exercices
 * Variables
+* Conditions
+* Boucles
+* Tableaux (v2)
+* Fonctions
+* Conditions
 
 
 ## Source
