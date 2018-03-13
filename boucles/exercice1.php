@@ -1,4 +1,5 @@
 <?php
+
 /** Afficher le nombre de 1 à 10 avec :*/
 
 /** for */
@@ -28,4 +29,3 @@ $j = 1;
 while ($j <= 10) {
     echo  'Boucle While 2 : ' . $j ++ . '<br />';
 }
-
