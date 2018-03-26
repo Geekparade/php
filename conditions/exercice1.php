@@ -3,8 +3,10 @@ echo '<h1>Complétez ce code source pour que le script affiche :';
 echo '<h3>$num1 est :</h3>';
 echo '<ul>
 		<li>inférieur a $num2</li>
-		<li>ou supérieur a $num2</li>
-		<li>ou égal a $num2</li>
+		OU 
+		<li>supérieur a $num2</li>
+		OU 
+		<li>égal a $num2</li>
 	</ul>';
 
 $num1 = $_GET['num1'];

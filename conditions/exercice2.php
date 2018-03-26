@@ -4,11 +4,13 @@ echo '<ul>
 		<li>
 			$chaine comporte plus de 10 caractères,
   		</li>
+  		OU 
   		<li>	
-  			OU $chaine comporte moins de 10 caractères,
+  			$chaine comporte moins de 10 caractères,
   		</li>
+  		OU 
   		<li>
-   			OU $chaine comporte exactement 10 caractères.
+   			$chaine comporte exactement 10 caractères.
 		</li>
 	</ul>';
 
