@@ -11,9 +11,7 @@
 				};
 			};
 		?>
-	</li>
-
-	
+	</li>	
 	<li>
 		<h3>le faire avec while .</h3>
 		<?php
