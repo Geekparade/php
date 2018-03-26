@@ -12,7 +12,7 @@ $num2 = $_GET['num2'];
 if(!isset($num1) || !isset($num2)) {
 	die("Vous devez appeler le script de cette facon : <br /><br /><strong>http://localhost/php/conditions/exercice1.php?num1=4&num2=3</strong>");
 }
-
+// Mon Code
 if ( $num1 < $num2 )
 {
 	echo $num1 . ' est inférieur à ' . $num2;
